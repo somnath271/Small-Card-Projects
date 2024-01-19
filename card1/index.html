@@ -4,59 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Card</title>
-    <style>
-
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-      .container {
-        width: 100%;
-        height: 100%;
-        min-height: 900px;
-        background-color: #8bc6ec;
-        background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
-        display: flex;
-        justify-content: center;
-        align-items: center; 
-      }
-
-      .card{
-        width: 360px;
-        height: 600px;
-        background-color: white;
-        border-radius: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-        padding: 20px;
-      }
-      .card img{
-        height: 57%;
-        border-radius: 10px;
-      }
-      .card h2{
-        font-weight: bold;
-        font-size: 1.5rem;
-      }
-      .card p{
-        font-size: 1em;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
+      <div class="card">
+        <img src="qrcode.png" alt="qrcode" />
 
-        <div class="card">
-            <img src="qrcode.png" alt="qrcode">
-
-            <h2>Improve your front end skills by developing Projects.</h2>
-            <p>Scan this QRcode to get more details.</p>
-
-        </div>
-
+        <h2>Improve your front end skills by developing Projects.</h2>
+        <p>Scan this QRcode to get more details.</p>
+      </div>
     </div>
   </body>
 </html>
