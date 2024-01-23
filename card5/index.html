@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card 5</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 100%;
+        height: 100%;
+        min-height: 900px;
+        background-color: #8bc6ec;
+        background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .card {
+        position: relative;
+        width: 550px;
+        height: 350px;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+          rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+      }
+      .box1 {
+        width: 550px;
+        height: 175px;
+        background-color: red;
+      }
+
+      .box2 {
+        width: 550px;
+        height: 175px;
+        background-color: #ffd9d9;
+      }
+      .box3 {
+        position: absolute;
+        /* top: 0;
+            left: 0; */
+        background-color: rgb(118, 110, 110);
+        width: 450px;
+        height: 250px;
+        margin-top: 50px;
+        margin-left: 50px;
+        box-shadow: #f0f0f0;
+        border-radius: 10px;
+      }
+      .box3 h1 {
+        text-align: center;
+        margin-top: 15%;
+        font: italic small-caps bold 16px/2 cursive;
+        font-size: 3vw;
+      }
+      .box3 p {
+        margin-left: 39%;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="box1">
+          <div class="box3">
+            <h1>Branding</h1>
+            <p>Somnath Brand</p>
+          </div>
+        </div>
+        <div class="box2"></div>
+      </div>
+    </div>
+  </body>
+</html>
