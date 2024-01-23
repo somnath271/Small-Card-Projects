@@ -24,6 +24,10 @@ Each card project follows a similar structure with an HTML file (`index.html`) a
   - **index.html**: HTML structure for the fourth card.
   - **style.css**: Styles and layout for the fourth card.
 
+- **card5/**
+  - **index.html**: HTML structure for the fifth card.
+  - **style.css**: Styles and layout for the fifth card.
+
 ## Usage
 
 Clone the repository to your local machine and open the desired card's `index.html` file in a web browser to see the card.
