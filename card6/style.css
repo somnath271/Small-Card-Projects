@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  min-height: 900px;
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  width: 350px;
+  height: 500px;
+  background-color: hsla(50, 33%, 25%, 0.75);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: left; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.box1 {
+  position: absolute;
+  /* top: 0;
+            left: 0; */
+  background-color: #40e0d0;
+  width: 300px;
+  height: 230px;
+
+  margin-top: -30px;
+  margin-left: 24px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 20px;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: 0s;
+  transition-timing-function: linear;
+}
+.box1:hover {
+  /* width: 500px; */
+  background-color: antiquewhite;
+  /* transform: translate(200px); */
+  transform: skew(10deg) translate(200px) scale(1.1);
+}
+@media (min-width: 600px) {
+  .box1 {
+    background-color: #8bc6ec;
+  }
+}
+
+.box1 img {
+  border-radius: 50%;
+  margin: 25px;
+  width: 100px;
+  position: absolute;
+  left: 70px;
+}
+
+.box1 h2 {
+  color: rgb(114, 55, 55);
+  font-weight: bold;
+  text-align: center;
+  margin-top: 150px;
+}
+.box1 p {
+  color: rgb(108, 64, 64);
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+.box2 {
+  position: absolute;
+  /* top: 0;
+            left: 0; */
+  background-color: rgb(205, 77, 77);
+  width: 300px;
+  height: 80px;
+  margin-top: 450px;
+  margin-left: 24px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 10px;
+}
+#textbox1 {
+  position: absolute;
+  bottom: 90px;
+  left: 10px;
+}
+#textbox1 img {
+  border-radius: 70%;
+  margin: 25px;
+  width: 50px;
+  position: absolute;
+}
+#textbox2 {
+  position: absolute;
+  bottom: 90px;
+  left: 70px;
+}
+#textbox2 img {
+  border-radius: 70%;
+  margin: 25px;
+  width: 50px;
+  position: absolute;
+}
+#textbox3 {
+  position: absolute;
+  bottom: 90px;
+  left: 130px;
+}
+#textbox3 img {
+  border-radius: 70%;
+  margin: 25px;
+  width: 50px;
+  position: absolute;
+}
+#textbox4 {
+  position: absolute;
+  bottom: 90px;
+  left: 190px;
+}
+#textbox4 img {
+  border-radius: 70%;
+  margin: 25px;
+  width: 50px;
+  position: absolute;
+}
+#content {
+  margin-left: 70px;
+  margin-top: 250px;
+}
