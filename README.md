@@ -27,6 +27,10 @@ Each card project follows a similar structure with an HTML file (`index.html`) a
 - **card5/**
   - **index.html**: HTML structure for the fifth card.
   - **style.css**: Styles and layout for the fifth card.
+ 
+- **card6/**
+  - **index.html**: HTML structure for the sixth card.
+  - **style.css**: Styles and layout for the sixth card.
 
 ## Usage
 
