@@ -23,12 +23,6 @@
   background-color: #4267b2;
   /* gap: 10px; */
 }
-.box1 img {
-  position: relative;
-  width: 50px;
-  top: 20px;
-  border-radius: 50px;
-}
 
 h1 {
   position: relative;
@@ -124,12 +118,6 @@ button:hover::before {
   flex-direction: column;
   /* gap: 10px; */
 }
-.box2 img {
-  position: relative;
-  width: 50px;
-  top: 20px;
-  border-radius: 50px;
-}
 
 .box3 {
   display: flex;
@@ -139,12 +127,7 @@ button:hover::before {
   flex-direction: column;
   /* gap: 10px; */
 }
-.box3 img {
-  position: relative;
-  width: 50px;
-  top: 20px;
-  border-radius: 50px;
-}
+
 .box4 {
   display: flex;
   /* justify-content: center; */
@@ -153,9 +136,29 @@ button:hover::before {
   flex-direction: column;
   /* gap: 10px; */
 }
+
+.box1 img,
+.box2 img,
+.box3 img,
 .box4 img {
   position: relative;
   width: 50px;
   top: 20px;
   border-radius: 50px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.box1 img:hover,
+.box2 img:hover,
+.box3 img:hover,
+.box4 img:hover {
+  transform: scale(1.2); /* Scale the image to 120% */
+}
+
+@media (max-width: 768px) {
+  #box {
+    width: calc(
+      100% - 20px
+    ); /* On smaller screens, each box takes the full width */
+  }
 }
