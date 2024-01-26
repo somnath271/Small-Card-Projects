@@ -27,11 +27,49 @@
   position: relative;
   width: 50px;
   top: 20px;
+  border-radius: 50px;
 }
+
 h1 {
   position: relative;
   top: 30px;
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  /* margin-top: 50px; */
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
 }
+
+h1:hover {
+  animation: rainbow 2s linear infinite;
+}
+
+@keyframes rainbow {
+  0% {
+    color: red;
+  }
+  16.666% {
+    color: orange;
+  }
+  33.333% {
+    color: yellow;
+  }
+  50% {
+    color: green;
+  }
+  66.666% {
+    color: blue;
+  }
+  83.333% {
+    color: indigo;
+  }
+  100% {
+    color: violet;
+  }
+}
+
 p {
   text-align: center;
   font-size: 18px;
@@ -90,6 +128,7 @@ button:hover::before {
   position: relative;
   width: 50px;
   top: 20px;
+  border-radius: 50px;
 }
 
 .box3 {
@@ -104,6 +143,7 @@ button:hover::before {
   position: relative;
   width: 50px;
   top: 20px;
+  border-radius: 50px;
 }
 .box4 {
   display: flex;
@@ -117,4 +157,5 @@ button:hover::before {
   position: relative;
   width: 50px;
   top: 20px;
+  border-radius: 50px;
 }
